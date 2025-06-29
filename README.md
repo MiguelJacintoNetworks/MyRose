@@ -1,2 +1,3 @@
-# MyRose---IOT
-An IoT app developed with two Arduinos (R4 Wi-Fi and BLE 33), a Raspberry Pi 4, and ThingsBoard as the cloud platform.
+MyRose is an IoT project for real-time monitoring of a rose. It uses two Arduinos (R4 Wi-Fi and BLE 33), a Raspberry Pi 4, and the ThingsBoard cloud. The rose recognizes three voice commands with a neural network (deep learning): “Water” (for automatic watering), “Hello” (to greet back), and “Servo” (to spin a fan on hot days). The ML/DL model was developed with Edge Impulse, using a dataset I created with over 1,000 one-second samples.
+
+The pipeline is simple: the two Arduinos act as sensors/actuators, sending data over BLE to the Raspberry Pi. The Raspberry Pi then uses MQTT to forward that data to ThingsBoard—completing the upstream flow. On the downstream side, I set up Rule Chains in ThingsBoard to trigger metrics that are sent back to the Arduino and shown on an OLED screen.
