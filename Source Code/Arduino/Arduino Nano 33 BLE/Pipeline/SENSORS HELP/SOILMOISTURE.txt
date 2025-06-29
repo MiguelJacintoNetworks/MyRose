@@ -1,0 +1,4 @@
+SOIL MOISTURE                           | ARDUINO
+YELLOW   (ANALOGIC OUT) (MIDDLE YELLOW) | A1
+RED      (VCC)          (MIDDLE WHITE)  | +3V3
+BLACK    (GROUND)       (MIDDLE RED)    | GROUND

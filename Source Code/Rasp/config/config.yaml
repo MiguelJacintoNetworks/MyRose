@@ -1,0 +1,9 @@
+thingsboard:
+  host: "mqtt.eu.thingsboard.cloud"
+  token: "kxweoy34q8adkgourx67"
+  port: 8883
+  ca_cert: "/home/raspberry/Rasp/certs/thingsboard-ca.pem"
+
+publisher:
+  csv_directory: "/home/raspberry/Rasp/output"
+  interval_seconds: 10

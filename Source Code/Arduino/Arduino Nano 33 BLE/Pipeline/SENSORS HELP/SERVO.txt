@@ -1,0 +1,4 @@
+SERVO                                  | ARDUINO
+BROWN   (GROUND)       (MIDDLE YELLOW) | GND
+RED     (VCC)          (MIDDLE RED)    | 1 ABAIXO DO GND (VIN)
+ORANGE  (PWN (SIGNAL)) (MIDDLE RED)    | D7 (10 - QUADRADO VAZIO - COLOCAR)
